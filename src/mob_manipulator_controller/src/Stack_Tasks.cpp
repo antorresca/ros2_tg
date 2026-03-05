@@ -100,15 +100,15 @@ void MobManipulatorController::calcTorqueDueTasks(){
     
     //--- Compute the constraints of the saturation
     if(osc_controller_.joint_limit_handling_method==3){
-        time_actual_sjs = ros::Time::now().toSec();
-        double current_sampling_time = time_actual_sjs-time_previous_sjs;
-        if(current_sampling_time<=10e-6){
+        time_actual_sjs = this->now().seconds();
+        double current_sampling_time = time_actual_sjs - time_previous_sjs;
+        if(current_sampling_time <= 10e-6){
             current_sampling_time = 1.0/500.0;
         }
 
         osc_controller_.updateSJSConstraints(dart_robotSkeleton, current_sampling_time);
 
-        time_previous_sjs = ros::Time::now().toSec();
+        time_previous_sjs = this->now().seconds();
     }
 
     //--- SJS variables
@@ -124,7 +124,7 @@ void MobManipulatorController::calcTorqueDueTasks(){
         tau_ns = Eigen::VectorXd::Zero(robot_dofs);
 
         //-- Loop for third singularity handling method
-        for (size_t cycle = 1; cycle <= cycles_algorithm; cycle++){
+        for (size_t cycle = 1; cycle <= (size_t)cycles_algorithm; cycle++){
 
             Null_space = Eigen::MatrixXd::Identity(robot_dofs,robot_dofs);
             tau_result = Eigen::VectorXd::Zero(robot_dofs);
@@ -157,7 +157,7 @@ void MobManipulatorController::calcTorqueDueTasks(){
         // Compensation of non-linear effects in joint space
 
         if(osc_controller_.compensate_jtspace){
-            tau_result =  tau_result + C_k + g_k;
+            tau_result = tau_result + C_k + g_k;
         }
 
         flag_sjs = false; // Clean SJS flag
@@ -169,7 +169,6 @@ void MobManipulatorController::calcTorqueDueTasks(){
             Eigen::VectorXd current_joint_accel = M.inverse() * (tau_result - C_k - g_k);
 
             //--- Check constraints
-            int critical_joint = -1;
             osc_controller_.checkSJSConstraints(current_joint_accel, mEndEffector_, &flag_sjs);
 
             //--- If constraints are exceeded
@@ -181,14 +180,13 @@ void MobManipulatorController::calcTorqueDueTasks(){
                 //--- Update Jacobian and task vector
                 osc_controller_.updateSJSConstraintTask(current_joint_accel, &flag_sjs, &Jacobian_constraints, &Desired_accel_constraints);
                 
-                if(prev_jacob.rows()==Jacobian_constraints.rows()){
+                if(prev_jacob.rows() == Jacobian_constraints.rows()){
                     if(prev_jacob.isApprox(Jacobian_constraints)){
-                        ROS_INFO("Repeated saturations in SJS");
+                        RCLCPP_INFO(this->get_logger(), "Repeated saturations in SJS");
                         flag_sjs = false;
                     }
                 }
             }
-
         }
     
     }// End SJS cycle

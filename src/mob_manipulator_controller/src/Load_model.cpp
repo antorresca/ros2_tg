@@ -119,36 +119,32 @@ void MobManipulatorController::loadDARTModel(){
     dart_robotSkeleton->getBodyNode("mobile_manipulator/right_finger_link")->changeParentJointType<WeldJoint>(fixedJoint4);
 
     /******************************/
-    // Change Right finger joint to WeldJoint
+    // Set end effector
     mEndEffector_ = dart_robotSkeleton->getBodyNode("mobile_manipulator/tcp_gripper_link");
 
     /******************************/
     // Add properties to the DART Model
     dart_robotSkeleton->setMobile(false);
-    //dart_robotSkeleton->enableSelfCollisionCheck();
 
     /******************************/
     // Update number of dofs of the robot
     robot_dofs = mEndEffector_->getNumDependentGenCoords(); 
 
-    q_k = Eigen::VectorXd::Zero(robot_dofs);
-    q_dot_k = Eigen::VectorXd::Zero(robot_dofs);
-    tau_zero = Eigen::VectorXd::Zero(robot_dofs);
-    tau_result = Eigen::VectorXd::Zero(robot_dofs);
-    tau_joints = Eigen::VectorXd::Zero(robot_dofs);
+    q_k          = Eigen::VectorXd::Zero(robot_dofs);
+    q_dot_k      = Eigen::VectorXd::Zero(robot_dofs);
+    tau_zero     = Eigen::VectorXd::Zero(robot_dofs);
+    tau_result   = Eigen::VectorXd::Zero(robot_dofs);
+    tau_joints   = Eigen::VectorXd::Zero(robot_dofs);
     q_dot_result = Eigen::VectorXd::Zero(robot_dofs);
-    q_dot_zero = Eigen::VectorXd::Zero(robot_dofs);
+    q_dot_zero   = Eigen::VectorXd::Zero(robot_dofs);
 
     /******************************/
     // INIT q_dot and tau to zero
-
     dart_robotSkeleton->setMobile(false);
     dart_robotSkeleton->setPositions(q_k);
     dart_robotSkeleton->setVelocities(q_dot_k);
 
-    // Print Message in log
-    ROS_INFO("Done loading model");
-
+    RCLCPP_INFO(this->get_logger(), "Done loading model");
 }
 
 } /* namespace */
