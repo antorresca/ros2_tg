@@ -1,0 +1,2 @@
+mobile_manipulator_msgs/Vector3 current_position
+mobile_manipulator_msgs/Vector3 desired_position

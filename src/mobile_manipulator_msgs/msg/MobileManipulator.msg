@@ -1,0 +1,6 @@
+std_msgs/Header header
+mobile_manipulator_msgs/PositionData position
+mobile_manipulator_msgs/OrientationData orientation
+mobile_manipulator_msgs/SingularValues singular
+mobile_manipulator_msgs/Torques torques
+mobile_manipulator_msgs/JointData joints

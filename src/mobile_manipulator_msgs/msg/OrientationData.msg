@@ -1,0 +1,2 @@
+mobile_manipulator_msgs/RPY current_orient
+mobile_manipulator_msgs/RPY desired_orient
