@@ -139,7 +139,7 @@ void MobManipulatorController::change_DesPose_CB(const mobile_manipulator_msgs::
 // Constructor
 MobManipulatorController::MobManipulatorController(const rclcpp::NodeOptions& options) :
     rclcpp::Node("mob_manipulator_controller", options),
-    frecuency_rate(1000),
+    frecuency_rate(90),
     time_previous_sjs(0),
     time_actual_sjs(0.001)
 {

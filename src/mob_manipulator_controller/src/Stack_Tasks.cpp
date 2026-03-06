@@ -53,26 +53,26 @@ void MobManipulatorController::StackTasks(Eigen::MatrixXd *Null_space, Eigen::Ve
     // Controller using pos XYZ with mobile manipulator
     
     //---osc_controller_.AchieveCartesianManipulator(targetCartPos, targetCartVel, targetCartAccel, &min_sv_pos, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
-    //osc_controller_.AchieveCartesianConstVel(targetCartPos, &min_sv_pos, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
+    osc_controller_.AchieveCartesianConstVel(targetCartPos, &min_sv_pos, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
 
     /*****************************************************/
     // Orientation tasks with mobile manipulator
 
     //---osc_controller_.AchieveOrientation(targetOrientPos, targetOrientVel, targetOrientAccel, &min_sv_ori, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
-    //osc_controller_.AchieveOrientationConstVel(targetOrientPos, &min_sv_ori, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space); 
+    osc_controller_.AchieveOrientationConstVel(targetOrientPos, &min_sv_ori, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space); 
     //---osc_controller_.OrientationImpedance(targetOrientPos, targetOrientVel, targetOrientAccel, &min_sv_ori, cycle, tau_ext, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space); 
 
     /*****************************************************/
     // Orientation tasks with manipulator
 
     //---osc_controller_.AchieveOriManipulator(targetOrientPos, targetOrientVel, targetOrientAccel, &min_sv_ori, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
-    osc_controller_.AchieveOriManipulatorConstVel(targetOrientPos, &min_sv_ori, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space); 
+    //osc_controller_.AchieveOriManipulatorConstVel(targetOrientPos, &min_sv_ori, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space); 
 
     /*****************************************************/
     // Controller using pos XYZ with manipulator - To test singularities
 
     //---osc_controller_.AchieveCartesianManipulator(targetCartPos, targetCartVel, targetCartAccel, &min_sv_pos, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
-    osc_controller_.AchieveCartManipulatorConstVel(targetCartPos, &min_sv_pos, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
+    //osc_controller_.AchieveCartManipulatorConstVel(targetCartPos, &min_sv_pos, cycle, M, C_k, g_k, dart_robotSkeleton, mEndEffector_, &tau_result, torque_ns, Null_space);
 
     /*****************************************************/
     // Joint tasks

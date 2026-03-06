@@ -9,7 +9,7 @@
       - lower_forearm_joint
       - wrist_joint
     orientation_error_calc: 5
-    only_manipulator: true
+    only_manipulator: false
     compensate_topdownEffects: false
     compensate_nonlinearInJointSpace: true
     use_augmented_projections: true

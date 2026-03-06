@@ -72,8 +72,8 @@ OSC_Controller::OSC_Controller(){
 
     //----------------------------------------------------------------------//
     //--- Gains for admittance controller
-    admittance_linear_damping = 800.0;
-    admittance_angular_damping = 800.0;
+    admittance_linear_damping = 50.0;
+    admittance_angular_damping = 50.0;
     admittance_desired_inertia = Eigen::MatrixXd::Identity(3,3);
 
     //----------------------------------------------------------------------//

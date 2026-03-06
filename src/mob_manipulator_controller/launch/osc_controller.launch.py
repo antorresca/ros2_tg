@@ -25,7 +25,7 @@ def generate_launch_description():
     urdf_model_path = os.path.join(
         get_package_share_directory('mobile_manipulator_description'),
         'urdf',
-        'robot_fixed.urdf'
+        'mobile_manipulator.urdf'
     )
 
     models_packages = [
