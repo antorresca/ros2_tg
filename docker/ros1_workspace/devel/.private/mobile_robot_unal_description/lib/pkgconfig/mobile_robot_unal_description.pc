@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/mobile_robot_unal_description
+
+Name: mobile_robot_unal_description
+Description: Description of mobile_robot_unal_description
+Version: 0.0.1
+Cflags: -I/catkin_ws/src/mobile_robot_unal_description/include
+Libs: -L${prefix}/lib -lmobile_robot_unal_description
+Requires: controller_manager roscpp sensor_msgs std_msgs nav_msgs tf2 tf2_ros

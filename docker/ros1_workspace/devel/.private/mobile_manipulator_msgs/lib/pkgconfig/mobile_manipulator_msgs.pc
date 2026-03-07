@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/mobile_manipulator_msgs
+
+Name: mobile_manipulator_msgs
+Description: Description of mobile_manipulator_msgs
+Version: 0.0.1
+Cflags: -I/catkin_ws/devel/.private/mobile_manipulator_msgs/include
+Libs: -L${prefix}/lib 
+Requires: 

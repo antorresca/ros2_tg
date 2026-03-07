@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mob_manipulator_controller/share/mob_manipulator_controller/cmake/mob_manipulator_controllerConfig-version.cmake

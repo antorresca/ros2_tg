@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mobile_robot_vel_publisher/share/mobile_robot_vel_publisher/cmake/mobile_robot_vel_publisherConfig-version.cmake

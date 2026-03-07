@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mobile_manipulator_msgs/share/roseus/ros/mobile_manipulator_msgs/msg/RPY.l

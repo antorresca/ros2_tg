@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mobile_manipulator_msgs/share/gennodejs/ros/mobile_manipulator_msgs/msg/JointData.js

@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mobile_manipulator_msgs/share/mobile_manipulator_msgs/cmake/mobile_manipulator_msgsConfig-version.cmake

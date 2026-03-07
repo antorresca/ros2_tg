@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/catkin/etc/catkin/profile.d/05.catkin_make.bash

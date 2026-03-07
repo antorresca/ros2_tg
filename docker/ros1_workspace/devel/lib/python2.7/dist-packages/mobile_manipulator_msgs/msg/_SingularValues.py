@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mobile_manipulator_msgs/lib/python2.7/dist-packages/mobile_manipulator_msgs/msg/_SingularValues.py

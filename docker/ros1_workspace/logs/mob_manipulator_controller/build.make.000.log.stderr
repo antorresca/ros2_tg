@@ -1,0 +1,21 @@
+[01m[K/catkin_ws/src/mob_manipulator_controller/src/Mob_Manipulator_Controller.cpp:[m[K In member function ‘[01m[Kvoid mob_manipulator_controller::MobManipulatorController::spin()[m[K’:
+[01m[K/catkin_ws/src/mob_manipulator_controller/src/Mob_Manipulator_Controller.cpp:610:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid tf2::Matrix3x3::getEulerZYX(tf2Scalar&, tf2Scalar&, tf2Scalar&, unsigned int) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         rot_mat.getEulerZYX(yaw, pitch, roll[01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/tf2/LinearMath/Transform.h:21:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+                 from [01m[K/catkin_ws/src/mob_manipulator_controller/include/mob_manipulator_controller/Mob_Manipulator_Controller.hpp:48[m[K,
+                 from [01m[K/catkin_ws/src/mob_manipulator_controller/src/Mob_Manipulator_Controller.cpp:17[m[K:
+[01m[K/opt/ros/melodic/include/tf2/LinearMath/Matrix3x3.h:282:35:[m[K [01;36m[Knote: [m[Kdeclared here
+  __attribute__((deprecated)) void [01;36m[KgetEulerZYX[m[K(tf2Scalar& yaw, tf2Scalar& pitch, tf2Scalar& roll, unsigned int solution_number = 1) const
+                                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/catkin_ws/src/mob_manipulator_controller/src/Mob_Manipulator_Controller.cpp:621:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid tf2::Matrix3x3::getEulerZYX(tf2Scalar&, tf2Scalar&, tf2Scalar&, unsigned int) const[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+         rot_mat.getEulerZYX(yaw, pitch, roll[01;35m[K)[m[K;
+                                             [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/tf2/LinearMath/Transform.h:21:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/tf2_geometry_msgs/tf2_geometry_msgs.h:37[m[K,
+                 from [01m[K/catkin_ws/src/mob_manipulator_controller/include/mob_manipulator_controller/Mob_Manipulator_Controller.hpp:48[m[K,
+                 from [01m[K/catkin_ws/src/mob_manipulator_controller/src/Mob_Manipulator_Controller.cpp:17[m[K:
+[01m[K/opt/ros/melodic/include/tf2/LinearMath/Matrix3x3.h:282:35:[m[K [01;36m[Knote: [m[Kdeclared here
+  __attribute__((deprecated)) void [01;36m[KgetEulerZYX[m[K(tf2Scalar& yaw, tf2Scalar& pitch, tf2Scalar& roll, unsigned int solution_number = 1) const
+                                   [01;36m[K^~~~~~~~~~~[m[K

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /catkin_ws/devel/.private/mobile_robot_vel_publisher/setup.sh

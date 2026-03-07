@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/mobile_robot_vel_publisher
+
+Name: mobile_robot_vel_publisher
+Description: Description of mobile_robot_vel_publisher
+Version: 0.0.1
+Cflags: -I/catkin_ws/src/mobile_robot_vel_publisher/include
+Libs: -L${prefix}/lib -lmobile_robot_vel_publisher
+Requires: geometry_msgs roscpp std_msgs nav_msgs tf2 tf2_ros

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /catkin_ws/devel/.private/mob_manipulator_controller/setup.sh

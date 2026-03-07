@@ -1,0 +1,7 @@
+mob_manipulator_controller
+/catkin_ws/devel/.private/mob_manipulator_controller/setup.fish /catkin_ws/devel/./setup.fish
+/catkin_ws/devel/.private/mob_manipulator_controller/local_setup.fish /catkin_ws/devel/./local_setup.fish
+/catkin_ws/devel/.private/mob_manipulator_controller/share/mob_manipulator_controller/cmake/mob_manipulator_controllerConfig.cmake /catkin_ws/devel/share/mob_manipulator_controller/cmake/mob_manipulator_controllerConfig.cmake
+/catkin_ws/devel/.private/mob_manipulator_controller/share/mob_manipulator_controller/cmake/mob_manipulator_controllerConfig-version.cmake /catkin_ws/devel/share/mob_manipulator_controller/cmake/mob_manipulator_controllerConfig-version.cmake
+/catkin_ws/devel/.private/mob_manipulator_controller/lib/mob_manipulator_controller/mob_manipulator_controller /catkin_ws/devel/lib/mob_manipulator_controller/mob_manipulator_controller
+/catkin_ws/devel/.private/mob_manipulator_controller/lib/pkgconfig/mob_manipulator_controller.pc /catkin_ws/devel/lib/pkgconfig/mob_manipulator_controller.pc

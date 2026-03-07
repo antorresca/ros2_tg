@@ -1,0 +1,2 @@
+/catkin_ws/devel/./setup.fish 26
+/catkin_ws/devel/./local_setup.fish 26

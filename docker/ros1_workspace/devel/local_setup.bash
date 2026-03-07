@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/catkin/local_setup.bash

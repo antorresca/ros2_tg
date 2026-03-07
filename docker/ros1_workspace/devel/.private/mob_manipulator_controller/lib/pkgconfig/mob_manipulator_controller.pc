@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/mob_manipulator_controller
+
+Name: mob_manipulator_controller
+Description: Description of mob_manipulator_controller
+Version: 0.0.2
+Cflags: -I/catkin_ws/src/mob_manipulator_controller/include
+Libs: -L${prefix}/lib -lmob_manipulator_controller
+Requires: roscpp rospy sensor_msgs geometry_msgs nav_msgs std_msgs tf2 tf2_ros mobile_manipulator_msgs

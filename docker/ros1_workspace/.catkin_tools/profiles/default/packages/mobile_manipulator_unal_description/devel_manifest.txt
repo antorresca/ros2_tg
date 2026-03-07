@@ -1,0 +1,3 @@
+mobile_manipulator_unal_description
+/catkin_ws/devel/.private/mobile_manipulator_unal_description/setup.fish /catkin_ws/devel/./setup.fish
+/catkin_ws/devel/.private/mobile_manipulator_unal_description/local_setup.fish /catkin_ws/devel/./local_setup.fish

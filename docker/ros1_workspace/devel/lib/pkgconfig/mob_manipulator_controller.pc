@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mob_manipulator_controller/lib/pkgconfig/mob_manipulator_controller.pc

@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mobile_manipulator_msgs/lib/pkgconfig/mobile_manipulator_msgs.pc

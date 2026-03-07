@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel/.private/test_trajectories_osc
+
+Name: test_trajectories_osc
+Description: Description of test_trajectories_osc
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

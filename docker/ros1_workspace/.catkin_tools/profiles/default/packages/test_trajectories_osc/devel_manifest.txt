@@ -1,0 +1,6 @@
+test_trajectories_osc
+/catkin_ws/devel/.private/test_trajectories_osc/setup.fish /catkin_ws/devel/./setup.fish
+/catkin_ws/devel/.private/test_trajectories_osc/local_setup.fish /catkin_ws/devel/./local_setup.fish
+/catkin_ws/devel/.private/test_trajectories_osc/share/test_trajectories_osc/cmake/test_trajectories_oscConfig.cmake /catkin_ws/devel/share/test_trajectories_osc/cmake/test_trajectories_oscConfig.cmake
+/catkin_ws/devel/.private/test_trajectories_osc/share/test_trajectories_osc/cmake/test_trajectories_oscConfig-version.cmake /catkin_ws/devel/share/test_trajectories_osc/cmake/test_trajectories_oscConfig-version.cmake
+/catkin_ws/devel/.private/test_trajectories_osc/lib/pkgconfig/test_trajectories_osc.pc /catkin_ws/devel/lib/pkgconfig/test_trajectories_osc.pc

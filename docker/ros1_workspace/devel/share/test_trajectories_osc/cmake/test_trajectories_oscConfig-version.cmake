@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/test_trajectories_osc/share/test_trajectories_osc/cmake/test_trajectories_oscConfig-version.cmake

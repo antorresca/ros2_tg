@@ -1,0 +1,1 @@
+/catkin_ws/devel/.private/mobile_robot_unal_description/lib/pkgconfig/mobile_robot_unal_description.pc
