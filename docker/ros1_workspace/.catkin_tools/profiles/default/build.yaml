@@ -9,7 +9,7 @@ install: false
 install_space: install
 isolate_install: false
 jobs_args:
-- -j4
+- -j 4
 log_space: logs
 make_args: []
 source_space: src

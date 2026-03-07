@@ -6,12 +6,3 @@
   CMakeLists.txt:32 (catkin_package)
 
 
-[31m[1mCMake Error[0m at /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:137 (message):
-  Could NOT find DART (missing: utils-urdf gui-osg) (Required is at least
-  version "6.6.0")
-[36mCall Stack (most recent call first):[0m
-  /usr/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake:378 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/dart/cmake/DARTConfig.cmake:191 (find_package_handle_standard_args)
-  CMakeLists.txt:76 (find_package)
-
-

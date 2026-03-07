@@ -4,8 +4,8 @@ Warning: Dest hash: 70c84acac3b5da829ecaf37e23359c05
 Warning: Cannot symlink from /catkin_ws/devel/.private/mobile_robot_vel_publisher/local_setup.fish to existing file /catkin_ws/devel/./local_setup.fish
 Warning: Source hash: f2f3dd54c9aa21c4bdd79f100f18d1da
 Warning: Dest hash: c9477c8107ce42fe5c0ff5e156cb2019
-Linked: (/catkin_ws/devel/.private/mobile_robot_vel_publisher/share/mobile_robot_vel_publisher/cmake/mobile_robot_vel_publisherConfig-version.cmake, /catkin_ws/devel/share/mobile_robot_vel_publisher/cmake/mobile_robot_vel_publisherConfig-version.cmake)
-Linked: (/catkin_ws/devel/.private/mobile_robot_vel_publisher/share/mobile_robot_vel_publisher/cmake/mobile_robot_vel_publisherConfig.cmake, /catkin_ws/devel/share/mobile_robot_vel_publisher/cmake/mobile_robot_vel_publisherConfig.cmake)
-Linked: (/catkin_ws/devel/.private/mobile_robot_vel_publisher/lib/mobile_robot_vel_publisher/local_vel_pub_node, /catkin_ws/devel/lib/mobile_robot_vel_publisher/local_vel_pub_node)
-Linked: (/catkin_ws/devel/.private/mobile_robot_vel_publisher/lib/mobile_robot_vel_publisher/global_vel_pub_node, /catkin_ws/devel/lib/mobile_robot_vel_publisher/global_vel_pub_node)
-Linked: (/catkin_ws/devel/.private/mobile_robot_vel_publisher/lib/pkgconfig/mobile_robot_vel_publisher.pc, /catkin_ws/devel/lib/pkgconfig/mobile_robot_vel_publisher.pc)
+Symlinking /catkin_ws/devel/share/mobile_robot_vel_publisher/cmake/mobile_robot_vel_publisherConfig-version.cmake
+Symlinking /catkin_ws/devel/share/mobile_robot_vel_publisher/cmake/mobile_robot_vel_publisherConfig.cmake
+Symlinking /catkin_ws/devel/lib/mobile_robot_vel_publisher/local_vel_pub_node
+Symlinking /catkin_ws/devel/lib/mobile_robot_vel_publisher/global_vel_pub_node
+Symlinking /catkin_ws/devel/lib/pkgconfig/mobile_robot_vel_publisher.pc

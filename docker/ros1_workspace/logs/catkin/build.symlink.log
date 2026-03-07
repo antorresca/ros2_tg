@@ -1,22 +1,22 @@
-Linked: (/catkin_ws/devel/.private/catkin/setup.zsh, /catkin_ws/devel/./setup.zsh)
-Linked: (/catkin_ws/devel/.private/catkin/local_setup.sh, /catkin_ws/devel/./local_setup.sh)
-Linked: (/catkin_ws/devel/.private/catkin/setup.fish, /catkin_ws/devel/./setup.fish)
-Linked: (/catkin_ws/devel/.private/catkin/local_setup.fish, /catkin_ws/devel/./local_setup.fish)
-Linked: (/catkin_ws/devel/.private/catkin/_setup_util.py, /catkin_ws/devel/./_setup_util.py)
-Linked: (/catkin_ws/devel/.private/catkin/env.sh, /catkin_ws/devel/./env.sh)
-Linked: (/catkin_ws/devel/.private/catkin/local_setup.zsh, /catkin_ws/devel/./local_setup.zsh)
-Linked: (/catkin_ws/devel/.private/catkin/local_setup.bash, /catkin_ws/devel/./local_setup.bash)
-Linked: (/catkin_ws/devel/.private/catkin/setup.sh, /catkin_ws/devel/./setup.sh)
-Linked: (/catkin_ws/devel/.private/catkin/setup.bash, /catkin_ws/devel/./setup.bash)
-Linked: (/catkin_ws/devel/.private/catkin/etc/catkin/profile.d/05.catkin_make.bash, /catkin_ws/devel/etc/catkin/profile.d/05.catkin_make.bash)
-Linked: (/catkin_ws/devel/.private/catkin/etc/catkin/profile.d/05.catkin_make_isolated.bash, /catkin_ws/devel/etc/catkin/profile.d/05.catkin_make_isolated.bash)
-Linked: (/catkin_ws/devel/.private/catkin/share/catkin/cmake/catkinConfig-version.cmake, /catkin_ws/devel/share/catkin/cmake/catkinConfig-version.cmake)
-Linked: (/catkin_ws/devel/.private/catkin/share/catkin/cmake/catkinConfig.cmake, /catkin_ws/devel/share/catkin/cmake/catkinConfig.cmake)
-Linked: (/catkin_ws/devel/.private/catkin/lib/pkgconfig/catkin.pc, /catkin_ws/devel/lib/pkgconfig/catkin.pc)
-Linked: (/catkin_ws/devel/.private/catkin/lib/python2.7/dist-packages/catkin/__init__.py, /catkin_ws/devel/lib/python2.7/dist-packages/catkin/__init__.py)
-Linked: (/catkin_ws/devel/.private/catkin/bin/catkin_test_results, /catkin_ws/devel/bin/catkin_test_results)
-Linked: (/catkin_ws/devel/.private/catkin/bin/catkin_topological_order, /catkin_ws/devel/bin/catkin_topological_order)
-Linked: (/catkin_ws/devel/.private/catkin/bin/catkin_make_isolated, /catkin_ws/devel/bin/catkin_make_isolated)
-Linked: (/catkin_ws/devel/.private/catkin/bin/catkin_make, /catkin_ws/devel/bin/catkin_make)
-Linked: (/catkin_ws/devel/.private/catkin/bin/catkin_init_workspace, /catkin_ws/devel/bin/catkin_init_workspace)
-Linked: (/catkin_ws/devel/.private/catkin/bin/catkin_find, /catkin_ws/devel/bin/catkin_find)
+Symlinking /catkin_ws/devel/./setup.zsh
+Symlinking /catkin_ws/devel/./local_setup.sh
+Symlinking /catkin_ws/devel/./setup.fish
+Symlinking /catkin_ws/devel/./local_setup.fish
+Symlinking /catkin_ws/devel/./_setup_util.py
+Symlinking /catkin_ws/devel/./env.sh
+Symlinking /catkin_ws/devel/./local_setup.zsh
+Symlinking /catkin_ws/devel/./local_setup.bash
+Symlinking /catkin_ws/devel/./setup.sh
+Symlinking /catkin_ws/devel/./setup.bash
+Symlinking /catkin_ws/devel/etc/catkin/profile.d/05.catkin_make.bash
+Symlinking /catkin_ws/devel/etc/catkin/profile.d/05.catkin_make_isolated.bash
+Symlinking /catkin_ws/devel/share/catkin/cmake/catkinConfig-version.cmake
+Symlinking /catkin_ws/devel/share/catkin/cmake/catkinConfig.cmake
+Symlinking /catkin_ws/devel/lib/pkgconfig/catkin.pc
+Symlinking /catkin_ws/devel/lib/python2.7/dist-packages/catkin/__init__.py
+Symlinking /catkin_ws/devel/bin/catkin_test_results
+Symlinking /catkin_ws/devel/bin/catkin_topological_order
+Symlinking /catkin_ws/devel/bin/catkin_make_isolated
+Symlinking /catkin_ws/devel/bin/catkin_make
+Symlinking /catkin_ws/devel/bin/catkin_init_workspace
+Symlinking /catkin_ws/devel/bin/catkin_find
